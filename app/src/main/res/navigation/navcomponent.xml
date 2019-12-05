@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="pl.mateuszkrawczuk.tumblrclient.ui.main.PostResultsFragment"
+        android:name="pl.mateuszkrawczuk.tumblrclient.ui.results.PostResultsFragment"
         android:label="main_fragment"
         tools:layout="@layout/fragment_post_results" />
     <fragment
