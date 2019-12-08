@@ -17,11 +17,11 @@ import pl.mateuszkrawczuk.tumblrclient.databinding.FragmentPostResultsBinding
 import pl.mateuszkrawczuk.tumblrclient.models.RepositoryInfo
 import javax.inject.Inject
 
-class PostResultsFragment : DaggerFragment() {
+class UserSearchFragment : DaggerFragment() {
 
     companion object {
         fun newInstance() =
-            PostResultsFragment()
+            UserSearchFragment()
     }
 
 
