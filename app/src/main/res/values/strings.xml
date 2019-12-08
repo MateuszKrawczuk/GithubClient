@@ -5,7 +5,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="trumblr_client">Trumblr Client</string>
     <string name="username">Username</string>
-    <string name="search_post">Search Post</string>
+    <string name="search_repositories">Search Repositories</string>
+    <string name="search_users">Search Users</string>
     <string name="show_user_repos_list">Show user repos list</string>
     <string name="name">Name</string>
 </resources>
