@@ -1,9 +1,8 @@
 <resources>
     <string name="app_name">Github Client</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="trumblr_client">Trumblr Client</string>
+    <string name="trumblr_client">Github Client</string>
     <string name="username">Username</string>
     <string name="search_repositories">Search Repositories</string>
     <string name="search_users">Search Users</string>
