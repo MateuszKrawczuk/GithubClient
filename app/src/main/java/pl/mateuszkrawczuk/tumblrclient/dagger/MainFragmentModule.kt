@@ -12,4 +12,5 @@ object MainFragmentModule {
     @Provides
     fun provideGetAllUseCase(githubAPI: GithubAPI): GetAllUserReposUseCase =
         GetAllUserReposUseCaseImpl(githubAPI)
+
 }
