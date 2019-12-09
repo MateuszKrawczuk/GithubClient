@@ -24,12 +24,10 @@ class MainMenuFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         searchUserButton.setOnClickListener {
-            disableButtons()
             it.findNavController()
                 .navigate(MainMenuFragmentDirections.actionMainMenuFragmentToUserSearchFragment())
         }
         searchRepoButton.setOnClickListener {
-            disableButtons()
             it.findNavController()
                 .navigate(MainMenuFragmentDirections.actionMainMenuFragmentToUserSearchFragment())
         }
@@ -38,8 +36,4 @@ class MainMenuFragment : Fragment() {
 /* TODO: Investigate and fix bug with nav framework.
      It doesn't remove/hide previous fragment from view */
 
-    private fun disableButtons() {
-        searchUserButton.visibility = View.GONE
-        searchRepoButton.visibility = View.GONE
-    }
 }
