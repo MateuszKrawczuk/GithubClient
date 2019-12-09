@@ -1,4 +1,4 @@
-package pl.mateuszkrawczuk.tumblrclient.ui.main
+package pl.mateuszkrawczuk.githubclient.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,9 +12,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import dagger.android.support.DaggerFragment
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.android.synthetic.main.fragment_post_results.*
-import pl.mateuszkrawczuk.tumblrclient.R
-import pl.mateuszkrawczuk.tumblrclient.databinding.FragmentPostResultsBinding
-import pl.mateuszkrawczuk.tumblrclient.models.RepositoryInfo
+import pl.mateuszkrawczuk.githubclient.R
+import pl.mateuszkrawczuk.githubclient.databinding.FragmentPostResultsBinding
+import pl.mateuszkrawczuk.githubclient.models.RepositoryInfo
 import javax.inject.Inject
 
 class UserSearchFragment : DaggerFragment() {

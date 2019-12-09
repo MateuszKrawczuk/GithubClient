@@ -1,7 +1,7 @@
-package pl.mateuszkrawczuk.tumblrclient.api
+package pl.mateuszkrawczuk.githubclient.api
 
 import io.reactivex.Single
-import pl.mateuszkrawczuk.tumblrclient.models.RepositoryInfo
+import pl.mateuszkrawczuk.githubclient.models.RepositoryInfo
 import retrofit2.http.GET
 import retrofit2.http.Path
 

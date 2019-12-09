@@ -8,7 +8,7 @@
 
         <variable
             name="viewModel"
-            type="pl.mateuszkrawczuk.tumblrclient.ui.main.MainViewModel" />
+            type="pl.mateuszkrawczuk.githubclient.ui.main.MainViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

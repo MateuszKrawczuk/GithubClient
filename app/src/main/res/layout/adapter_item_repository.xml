@@ -8,7 +8,7 @@
 
         <variable
             name="item"
-            type="pl.mateuszkrawczuk.tumblrclient.models.RepositoryInfo" />
+            type="pl.mateuszkrawczuk.githubclient.models.RepositoryInfo" />
     </data>
 
     <androidx.cardview.widget.CardView

@@ -1,4 +1,4 @@
-package pl.mateuszkrawczuk.tumblrclient
+package pl.mateuszkrawczuk.githubclient
 
 import android.os.Bundle
 import android.view.LayoutInflater

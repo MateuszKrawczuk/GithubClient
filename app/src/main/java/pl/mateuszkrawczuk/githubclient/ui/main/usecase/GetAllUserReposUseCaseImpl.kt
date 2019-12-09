@@ -1,8 +1,8 @@
-package pl.mateuszkrawczuk.tumblrclient.ui.main.usecase
+package pl.mateuszkrawczuk.githubclient.ui.main.usecase
 
 import io.reactivex.Single
-import pl.mateuszkrawczuk.tumblrclient.api.GithubAPI
-import pl.mateuszkrawczuk.tumblrclient.models.RepositoryInfo
+import pl.mateuszkrawczuk.githubclient.api.GithubAPI
+import pl.mateuszkrawczuk.githubclient.models.RepositoryInfo
 
 class GetAllUserReposUseCaseImpl(private val githubAPI: GithubAPI) :
     GetAllUserReposUseCase {

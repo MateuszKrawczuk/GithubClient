@@ -1,11 +1,11 @@
-package pl.mateuszkrawczuk.tumblrclient.dagger
+package pl.mateuszkrawczuk.githubclient.dagger
 
 import android.content.Context
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
 import dagger.android.AndroidInjector
-import pl.mateuszkrawczuk.tumblrclient.MyApplication
+import pl.mateuszkrawczuk.githubclient.MyApplication
 import javax.inject.Singleton
 
 @Singleton

@@ -1,4 +1,4 @@
-package pl.mateuszkrawczuk.tumblrclient.ui.main
+package pl.mateuszkrawczuk.githubclient.ui.main
 
 
 import androidx.lifecycle.MutableLiveData
@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModel
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
-import pl.mateuszkrawczuk.tumblrclient.models.RepositoryInfo
-import pl.mateuszkrawczuk.tumblrclient.ui.main.usecase.GetAllUserReposUseCase
+import pl.mateuszkrawczuk.githubclient.models.RepositoryInfo
+import pl.mateuszkrawczuk.githubclient.ui.main.usecase.GetAllUserReposUseCase
 import javax.inject.Inject
 
 class MainViewModel @Inject constructor(private val getAllUserRepos: GetAllUserReposUseCase) :

@@ -1,12 +1,12 @@
-package pl.mateuszkrawczuk.tumblrclient.ui.main
+package pl.mateuszkrawczuk.githubclient.ui.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import pl.mateuszkrawczuk.tumblrclient.R
-import pl.mateuszkrawczuk.tumblrclient.databinding.AdapterItemRepositoryBinding
-import pl.mateuszkrawczuk.tumblrclient.models.RepositoryInfo
+import pl.mateuszkrawczuk.githubclient.R
+import pl.mateuszkrawczuk.githubclient.databinding.AdapterItemRepositoryBinding
+import pl.mateuszkrawczuk.githubclient.models.RepositoryInfo
 
 class RepositoriesAdapter : RecyclerView.Adapter<RepositoriesAdapter.MyViewHolder>() {
 
