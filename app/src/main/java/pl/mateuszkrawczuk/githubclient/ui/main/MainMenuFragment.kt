@@ -1,4 +1,4 @@
-package pl.mateuszkrawczuk.tumblrclient.ui.main
+package pl.mateuszkrawczuk.githubclient.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import kotlinx.android.synthetic.main.fragment_main_menu.*
-import pl.mateuszkrawczuk.tumblrclient.R
+import pl.mateuszkrawczuk.githubclient.R
 
 
 class MainMenuFragment : Fragment() {

@@ -1,4 +1,4 @@
-package pl.mateuszkrawczuk.tumblrclient
+package pl.mateuszkrawczuk.githubclient
 
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.disposables.Disposable

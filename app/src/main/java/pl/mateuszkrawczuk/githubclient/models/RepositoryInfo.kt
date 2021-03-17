@@ -1,4 +1,4 @@
-package pl.mateuszkrawczuk.tumblrclient.models
+package pl.mateuszkrawczuk.githubclient.models
 
 
 import com.squareup.moshi.Json

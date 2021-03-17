@@ -1,4 +1,4 @@
-package pl.mateuszkrawczuk.tumblrclient
+package pl.mateuszkrawczuk.githubclient
 
 import android.view.View
 import android.view.View.GONE

@@ -1,4 +1,4 @@
-package pl.mateuszkrawczuk.tumblrclient.dagger
+package pl.mateuszkrawczuk.githubclient.dagger
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -6,7 +6,7 @@ import dagger.Binds
 import dagger.MapKey
 import dagger.Module
 import dagger.multibindings.IntoMap
-import pl.mateuszkrawczuk.tumblrclient.ui.main.MainViewModel
+import pl.mateuszkrawczuk.githubclient.ui.main.MainViewModel
 import javax.inject.Inject
 import javax.inject.Provider
 import javax.inject.Singleton

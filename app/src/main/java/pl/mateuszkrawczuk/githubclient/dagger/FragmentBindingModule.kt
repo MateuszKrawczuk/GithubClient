@@ -1,8 +1,8 @@
-package pl.mateuszkrawczuk.tumblrclient.dagger
+package pl.mateuszkrawczuk.githubclient.dagger
 
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
-import pl.mateuszkrawczuk.tumblrclient.ui.main.UserSearchFragment
+import pl.mateuszkrawczuk.githubclient.ui.main.UserSearchFragment
 
 @Module
 abstract class FragmentBindingModule {

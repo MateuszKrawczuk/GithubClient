@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeScreenFragment"
-        android:name="pl.mateuszkrawczuk.tumblrclient.WelcomeScreenFragment"
+        android:name="pl.mateuszkrawczuk.githubclient.WelcomeScreenFragment"
         android:label="fragment_welcome_screen"
         tools:layout="@layout/fragment_welcome_screen">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainMenuFragment"
-        android:name="pl.mateuszkrawczuk.tumblrclient.ui.main.MainMenuFragment"
+        android:name="pl.mateuszkrawczuk.githubclient.ui.main.MainMenuFragment"
         android:label="fragment_main_menu"
         tools:layout="@layout/fragment_main_menu">
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/userSearchFragment"
-        android:name="pl.mateuszkrawczuk.tumblrclient.ui.main.UserSearchFragment"
+        android:name="pl.mateuszkrawczuk.githubclient.ui.main.UserSearchFragment"
         android:label="UserSearchFragment">
     </fragment>
 </navigation>

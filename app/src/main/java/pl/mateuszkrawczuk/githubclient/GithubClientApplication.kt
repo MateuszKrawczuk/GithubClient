@@ -1,8 +1,8 @@
-package pl.mateuszkrawczuk.tumblrclient
+package pl.mateuszkrawczuk.githubclient
 
 import dagger.android.AndroidInjector
 import dagger.android.DaggerApplication
-import pl.mateuszkrawczuk.tumblrclient.dagger.DaggerAppComponent
+import pl.mateuszkrawczuk.githubclient.dagger.DaggerAppComponent
 
 class GithubClientApplication :
     DaggerApplication() {

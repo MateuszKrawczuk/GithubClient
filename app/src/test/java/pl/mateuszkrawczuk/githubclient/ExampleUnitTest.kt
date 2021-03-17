@@ -1,4 +1,4 @@
-package pl.mateuszkrawczuk.tumblrclient
+package pl.mateuszkrawczuk.githubclient
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
