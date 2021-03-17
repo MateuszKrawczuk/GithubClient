@@ -54,7 +54,7 @@ class UserSearchFragment : DaggerFragment() {
         reposList.adapter = viewAdapter
 
         viewModel.repositories.observe(
-            this,
+            viewLifecycleOwner,
             Observer<List<RepositoryInfo>> { viewAdapter.setItems(it) }
         )
     }
