@@ -4,7 +4,7 @@ import dagger.Module
 import dagger.Provides
 import pl.mateuszkrawczuk.tumblrclient.api.GithubAPI
 import retrofit2.Retrofit
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
+import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory
 import retrofit2.converter.moshi.MoshiConverterFactory
 import javax.inject.Singleton
 
@@ -20,7 +20,7 @@ object AppModule {
         Retrofit.Builder()
             .baseUrl(URL_SERVER)
             .addConverterFactory(MoshiConverterFactory.create())
-            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+            .addCallAdapterFactory(RxJava3CallAdapterFactory.create())
             .build()
 
     @Singleton

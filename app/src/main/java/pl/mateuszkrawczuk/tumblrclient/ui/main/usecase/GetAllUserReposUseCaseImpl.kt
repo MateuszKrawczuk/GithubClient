@@ -1,6 +1,6 @@
 package pl.mateuszkrawczuk.tumblrclient.ui.main.usecase
 
-import io.reactivex.Single
+import io.reactivex.rxjava3.core.Single
 import pl.mateuszkrawczuk.tumblrclient.api.GithubAPI
 import pl.mateuszkrawczuk.tumblrclient.models.RepositoryInfo
 

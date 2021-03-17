@@ -3,9 +3,9 @@ package pl.mateuszkrawczuk.tumblrclient.ui.main
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.Disposable
-import io.reactivex.schedulers.Schedulers
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.disposables.Disposable
+import io.reactivex.rxjava3.schedulers.Schedulers
 import pl.mateuszkrawczuk.tumblrclient.models.RepositoryInfo
 import pl.mateuszkrawczuk.tumblrclient.ui.main.usecase.GetAllUserReposUseCase
 import javax.inject.Inject
