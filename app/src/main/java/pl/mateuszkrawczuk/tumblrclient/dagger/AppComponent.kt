@@ -5,7 +5,7 @@ import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
 import dagger.android.AndroidInjector
-import pl.mateuszkrawczuk.tumblrclient.MyApplication
+import pl.mateuszkrawczuk.tumblrclient.GithubClientApplication
 import javax.inject.Singleton
 
 @Singleton
@@ -19,7 +19,7 @@ import javax.inject.Singleton
     ]
 )
 interface AppComponent :
-    AndroidInjector<MyApplication> {
+    AndroidInjector<GithubClientApplication> {
 
     @Component.Factory
     interface Factory {
